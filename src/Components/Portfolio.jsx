@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Determinantes del precio del cobre segun el tipo de cambio entre clp y usd",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Proyecto de investigación para la asignatura de econometría, en donde se analiza el comportamiento del precio del cobre en relación al tipo de cambio entre el peso chileno y el dólar estadounidense. Se utilizan modelos de series de tiempo, autoregresivos y de medias moviles, ademas de estimaciones por MCO, El trabajo se realizó en Python.",
+    url: "https://github.com/reivajlow/Econometria.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Data Science and Machine Learning Portfolio",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A collection of notebooks containing data analysis and machine learning projects I've worked on.",
+    url: "https://github.com/reivajlow/Data-science.git",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "on work... :)",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "web site with data base management system",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Proyecto de Bases de datos, en donde se desarrolla un sistema de gestión de base de datos. Se utilizó SQL server management studio, Visual studio, python(with flask, pandas and others), html and css for best visualization.",
+    url: "https://github.com/reivajlow/website.git",
   },
 ];
 

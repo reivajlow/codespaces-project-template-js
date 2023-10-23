@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/binary.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,21 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Soy un estudiante de quinto año de Ingeniería en Estadística con pasión por la ciencia de datos y el machine learning. Me he formado en diversas áreas de la estadística, como el análisis exploratorio, la inferencia, el modelado, la simulación y la optimización(si!, todo acompañado de mucha programación!!!). También tengo experiencia en métodos multivariantes, data mining, econometría, series de tiempo y geoestadística. Manejo diferentes lenguajes de programación y software estadísticos, como Excel, LATEX, Python, Rstudio, SQL server management, Jupyter, Power BI y Matlab. He participado en conferencias y cursos de prestigio, como los impartidos por Victor Leiva, SOCHE, Udemy y coursera. Mi objetivo es aplicar la estadística de forma innovadora y creativa, buscando mejorar la toma de decisiones y difundir su potencial. Tengo habilidades en liderazgo, comunicación y metodología de la investigación. Me considero un profesional competente y comprometido con mi disciplina.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Machine learning",
+  "Data science",
+  "time series",
+  "Data mining",
+  "statistical modeling",
+  "statistical inference",
+  "optimization and simulation",
+  "multivariate methods",
 ];
 
 /**
@@ -44,8 +46,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = '"The purpose of computing is insight, not numbers". - Richard Hamming';
 
 const About = () => {
   return (
