@@ -50,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -113,6 +113,51 @@ const Footer = (props) => {
           </a>
         )}
       </div>
+      <div
+        className="badge-base LI-profile-badge"
+        data-locale="es_ES"
+        data-size="medium"
+        data-theme="dark"
+        data-type="VERTICAL"
+        data-vanity="javier-saavedra-6ab3381a0"
+        data-version="v1"
+      >
+        <a
+          className="badge-base__link LI-simple-link"
+          href="https://cl.linkedin.com/in/javier-saavedra-6ab3381a0?trk=profile-badge"
+        >
+          Javier Saavedra
+        </a>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "2.5rem",
+        }}
+      >
+        <a
+          href="https://github.com/reivajlow/codespaces-project-template-js"
+          title="Go to GitHub repo"
+        >
+          <img
+            src="https://img.shields.io/static/v1?label=reivajlow&message=codespaces-project-template-js&color=blue&logo=github"
+            alt="reivajlow - codespaces-project-template-js"
+          />
+        </a>
+        <a href="https://github.com/reivajlow/codespaces-project-template-js/generate">
+          <img
+            src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge"
+            alt="Use this template"
+          />
+        </a>
+        <a href="https://reivajlow.github.io/codespaces-project-template-js/">
+          <img
+            src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge"
+            alt="View site - GH Pages"
+          />
+        </a>
+      </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
       </p>
@@ -135,7 +180,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
